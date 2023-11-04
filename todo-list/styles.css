@@ -1,0 +1,51 @@
+.header {
+  padding: 5px;
+  background-color: #b07eea;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.todo-list {
+  padding: 40px;
+  box-shadow: 00px 0px 10px 0px gray;
+  position: relative;
+}
+
+.todo-list h4 {
+  margin: 0px;
+}
+
+.new-task h4 {
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.new-task {
+  width: 200px;
+  padding: 20px;
+  background-color: #b07eea;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+ul li {
+  margin: 10px 0px;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+ul li:hover {
+  background-color: #b07eea;
+  cursor: pointer;
+  color: white;
+}
